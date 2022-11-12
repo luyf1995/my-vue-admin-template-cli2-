@@ -2263,7 +2263,7 @@ error-stack-parser@^2.0.0:
   dependencies:
     stackframe "^1.0.4"
 
-es-abstract@^1.5.1, es-abstract@^1.7.0:
+es-abstract@^1.7.0:
   version "1.13.0"
   resolved "https://registry.npm.taobao.org/es-abstract/download/es-abstract-1.13.0.tgz#ac86145fdd5099d8dd49558ccba2eaf9b88e24e9"
   integrity sha1-rIYUX91QmdjdSVWMy6Lq+biOJOk=
@@ -3071,19 +3071,6 @@ html-webpack-plugin@^2.30.1:
     lodash "^4.17.3"
     pretty-error "^2.0.2"
     toposort "^1.0.0"
-
-html-webpack-plugin@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.npm.taobao.org/html-webpack-plugin/download/html-webpack-plugin-3.2.0.tgz#b01abbd723acaaa7b37b6af4492ebda03d9dd37b"
-  integrity sha1-sBq71yOsqqeze2r0SS69oD2d03s=
-  dependencies:
-    html-minifier "^3.2.3"
-    loader-utils "^0.2.16"
-    lodash "^4.17.3"
-    pretty-error "^2.0.2"
-    tapable "^1.0.0"
-    toposort "^1.0.0"
-    util.promisify "1.0.0"
 
 htmlparser2@^3.3.0, htmlparser2@^3.8.3:
   version "3.10.1"
@@ -4439,14 +4426,6 @@ object-visit@^1.0.0:
   integrity sha1-95xEk68MU3e1n+OdOV5BBC3QRbs=
   dependencies:
     isobject "^3.0.0"
-
-object.getownpropertydescriptors@^2.0.3:
-  version "2.0.3"
-  resolved "https://registry.npm.taobao.org/object.getownpropertydescriptors/download/object.getownpropertydescriptors-2.0.3.tgz#8758c846f5b407adab0f236e0986f14b051caa16"
-  integrity sha1-h1jIRvW0B62rDyNuCYbxSwUcqhY=
-  dependencies:
-    define-properties "^1.1.2"
-    es-abstract "^1.5.1"
 
 object.pick@^1.3.0:
   version "1.3.0"
@@ -6257,19 +6236,19 @@ supports-color@^6.1.0:
   dependencies:
     has-flag "^3.0.0"
 
-svg-baker-runtime@1.4.1:
-  version "1.4.1"
-  resolved "https://registry.npm.taobao.org/svg-baker-runtime/download/svg-baker-runtime-1.4.1.tgz#d3f77dffdf1f1a8b8f1e84ef67d2c1b53d60d770"
-  integrity sha1-0/d9/98fGouPHoTvZ9LBtT1g13A=
+svg-baker-runtime@^1.4.7:
+  version "1.4.7"
+  resolved "https://registry.yarnpkg.com/svg-baker-runtime/-/svg-baker-runtime-1.4.7.tgz#f4720637f5b6202eef6378d81f1fead0815f8a4e"
+  integrity sha512-Zorfwwj5+lWjk/oxwSMsRdS2sPQQdTmmsvaSpzU+i9ZWi3zugHLt6VckWfnswphQP0LmOel3nggpF5nETbt6xw==
   dependencies:
     deepmerge "1.3.2"
     mitt "1.1.2"
-    svg-baker "^1.4.0"
+    svg-baker "^1.7.0"
 
-svg-baker@^1.4.0, svg-baker@^1.4.1:
-  version "1.4.1"
-  resolved "https://registry.npm.taobao.org/svg-baker/download/svg-baker-1.4.1.tgz#6071edef6e99b12af87e655024c154d066e1ad2f"
-  integrity sha1-YHHt726ZsSr4fmVQJMFU0GbhrS8=
+svg-baker@^1.5.0, svg-baker@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/svg-baker/-/svg-baker-1.7.0.tgz#8367f78d875550c52fe4756f7303d5c5d7c2e9a7"
+  integrity sha512-nibslMbkXOIkqKVrfcncwha45f97fGuAOn1G99YwnwTj8kF9YiM6XexPcUso97NxOm6GsP0SIvYVIosBis1xLg==
   dependencies:
     bluebird "^3.5.0"
     clone "^2.1.1"
@@ -6285,19 +6264,18 @@ svg-baker@^1.4.0, svg-baker@^1.4.1:
     query-string "^4.3.2"
     traverse "^0.6.6"
 
-svg-sprite-loader@^4.1.6:
-  version "4.1.6"
-  resolved "https://registry.npm.taobao.org/svg-sprite-loader/download/svg-sprite-loader-4.1.6.tgz#ca03d51201e326c1c018389c81d5b0eb78dc01de"
-  integrity sha1-ygPVEgHjJsHAGDicgdWw63jcAd4=
+svg-sprite-loader@^6.0.11:
+  version "6.0.11"
+  resolved "https://registry.yarnpkg.com/svg-sprite-loader/-/svg-sprite-loader-6.0.11.tgz#a4d60cee3d74232a2c17d31c73a2008295f61220"
+  integrity sha512-TedsTf8wsHH6HgdwKjUveDZRC6q5gPloYV8A8/zZaRWP929J7x6TzQ6MvZFl+YYDJuJ0Akyuu/vNVJ+fbPuYXg==
   dependencies:
     bluebird "^3.5.0"
     deepmerge "1.3.2"
     domready "1.0.8"
     escape-string-regexp "1.0.5"
-    html-webpack-plugin "^3.2.0"
     loader-utils "^1.1.0"
-    svg-baker "^1.4.1"
-    svg-baker-runtime "1.4.1"
+    svg-baker "^1.5.0"
+    svg-baker-runtime "^1.4.7"
     url-slug "2.0.0"
 
 svgo@^0.7.0:
@@ -6317,11 +6295,6 @@ tapable@^0.2.7:
   version "0.2.9"
   resolved "https://registry.npm.taobao.org/tapable/download/tapable-0.2.9.tgz#af2d8bbc9b04f74ee17af2b4d9048f807acd18a8"
   integrity sha1-ry2LvJsE907hevK02QSPgHrNGKg=
-
-tapable@^1.0.0:
-  version "1.1.3"
-  resolved "https://registry.npm.taobao.org/tapable/download/tapable-1.1.3.tgz#a1fccc06b58db61fd7a45da2da44f5f3a3e67ba2"
-  integrity sha1-ofzMBrWNth/XpF2i2kT186Pme6I=
 
 tar@^2.0.0:
   version "2.2.1"
@@ -6648,14 +6621,6 @@ util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/util-deprecate/download/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
-
-util.promisify@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npm.taobao.org/util.promisify/download/util.promisify-1.0.0.tgz#440f7165a459c9a16dc145eb8e72f35687097030"
-  integrity sha1-RA9xZaRZyaFtwUXrjnLzVocJcDA=
-  dependencies:
-    define-properties "^1.1.2"
-    object.getownpropertydescriptors "^2.0.3"
 
 util@0.10.3:
   version "0.10.3"
